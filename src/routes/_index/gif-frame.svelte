@@ -1,12 +1,12 @@
 <script>
-import MacOsFrame from 'svelte-mac-os-frame';
+import MacOsFrame from '@/components/frame.svelte';
 </script>
 
-<div id="gif-frame">
-  <MacOsFrame title="example.gif">
-    <img id="example-gif" src="https://raw.githubusercontent.com/Nergel3/svelte-fullpage.js/master/resources/example.gif" alt="example gif">
+<a id="gif-frame" href="https://alvarotrigo.com/fullPage/" target="_blank">
+  <MacOsFrame title="Official fullpage.js website">
+    <img id="example-gif" src="fullpage.js.gif" alt="example gif">
   </MacOsFrame>
-</div>
+</a>
 
 <style lang="sass">
 #gif-frame
@@ -14,8 +14,10 @@ import MacOsFrame from 'svelte-mac-os-frame';
   top: 10%
   left: 50%
   transform: translateX(-50%)
+  text-decoration: none
 
 #example-gif
+  display: block
   max-height: 50vh
   max-width: 90vw
 </style>

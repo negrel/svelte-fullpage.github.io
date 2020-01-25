@@ -15,9 +15,8 @@
 			<Example />
 		</div>
 		<div id="section-3" class="section" data-anchor="page3">
-				<!-- <p align="center">Live demo <a href="#">here</a></p> -->
-				<!-- <p align="center"><i>Coming soon</i></p> -->
-				<Gif />
+			<Gif />
+			<span>Coded with love by <a href="https://negrel.dev/">Alexander Negrel</a></span>
 		</div>
 	</svelte:component>
 </div>
@@ -94,8 +93,13 @@ h1
 
 
 	&-3
-		background: url("touch-responsive.jpg") no-repeat 50% 100%
 		background-color: #fec401
+
+		& span
+			position: absolute
+			bottom: 2.5%
+			left: 50%
+			transform: translateX(-50%)
 
 		& a
 			color: $white

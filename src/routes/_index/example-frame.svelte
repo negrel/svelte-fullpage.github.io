@@ -1,5 +1,5 @@
 <script>
-import MacOsFrame from 'svelte-mac-os-frame';
+import MacOsFrame from '@/components/frame.svelte';
 
 import Highlight from 'svelte-highlight';
 import { xml } from 'svelte-highlight/languages';
@@ -40,10 +40,4 @@ import { anOldHope } from 'svelte-highlight/styles';
 .mac-os-frame
 	&_body
 		user-select: text
-
-	&_header
-		background: #1C1D21!important
-
-		&_title
-			color: whitesmoke!important
 </style>
