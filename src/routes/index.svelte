@@ -1,3 +1,7 @@
+<svelte:head>
+	<title>Svelte - Fullpage.js component</title>
+</svelte:head>
+
 <div>
 	<svelte:component this={Fullpage} {options}>
 		<div id="section-1" class="section" data-anchor="page1">
