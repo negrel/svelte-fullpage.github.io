@@ -47,7 +47,7 @@ const options = {
 </script>
 
 <style lang="sass">
-@import '../style/variables.sass';
+@import '../style/variables.sass'
 
 *
 	user-select: none

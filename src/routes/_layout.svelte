@@ -1,5 +1,5 @@
 <style lang="sass" global>
-@import '../style/variables.sass';
+@import '../style/variables.sass'
 
 html
   font-family: $font-default
@@ -18,11 +18,11 @@ html
   padding: 0
 
 @media screen and (max-width: $breakpoint-tablet)
-  & html
+  html
     font-size: 20px
 
 @media screen and (max-width: $breakpoint-mobile)
-  & html
+  html
     font-size: 16px
 
 </style>
