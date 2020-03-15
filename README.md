@@ -1,3 +1,3 @@
-# svelte-fullpage.js website
+[# svelte-fullpage.js website](https://svelte-fullpage.js.org)
 
-![](https://raw.githubusercontent.com/Nergel3/svelte-fullpage.js/master/resources/example.gif)
+![](https://raw.githubusercontent.com/negrel/svelte-fullpage.js/master/resources/example.gif)
