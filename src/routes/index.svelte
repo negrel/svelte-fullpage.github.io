@@ -20,7 +20,7 @@
 		</div>
 		<div id="section-3" class="section" data-anchor="page3">
 			<Gif />
-			<span>Coded with love by <a href="https://negrel.dev/">Alexander Negrel</a></span>
+			<span>Coded with love by <a href="https://www.negrel.dev/">Alexander Negrel</a></span>
 		</div>
 	</svelte:component>
 </div>
