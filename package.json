@@ -5,7 +5,9 @@
   "scripts": {
     "dev": "sapper dev",
     "build": "sapper build --legacy",
-    "export": "rm -rf ./docs && sapper export --legacy && mv -f __sapper__/export ./docs",
+    "export": "sapper export --legacy",
+    "export:gh": "rm -rf ./docs && sapper export --basepath \"/svelte-fullpage.github.io\" --legacy && mv -f __sapper__/export ./docs",
+    "export:portfolio": "sapper export --basepath \"/svelte-fullpage.js\"",
     "start": "node __sapper__/build",
     "cy:run": "cypress run",
     "cy:open": "cypress open",
